@@ -12,8 +12,7 @@ namespace hospital.Models
         public int age { get; set; }
         public int phone { get; set; }
         public bill _bill { get; set; }
-        public int D_id { get; set; }
-        public doctor _doctor { get; set; }
+        public List<doctor> _doctor { get; set; }
         public Room _room { get; set; }
     }
 }
